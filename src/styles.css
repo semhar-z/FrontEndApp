@@ -1,0 +1,134 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+    .App {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #b16565;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+ 
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+ .navbar-link:hover {
+  background-color: #811919;
+  border-radius: 5px;
+}
+  
+      .card {
+    /* background-color: #fff;  */
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(8, 7, 7, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  
+  .card button {
+    background-color: #143b64;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+  }
+
+    
+  .card button:hover {
+    background-color: #0056b3;
+  } */
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 40%;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 40%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer Styling */
+  /* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+  } */
+   
