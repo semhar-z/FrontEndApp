@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
+import '../styles.css';
 
 function EditItem({ setItems }) {
   const { postId } = useParams();  

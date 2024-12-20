@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getItems } from '../services/api';
 import DeleteButton from './DeleteButton';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../styles.css';
 
 const ItemList = () => {

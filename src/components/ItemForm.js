@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { createItem } from '../services/api';
+import '../styles.css'
 
 const ItemForm = ({ setItems }) => {
   const [formData, setFormData] = useState({ name: '', description: '' , postId: ''});

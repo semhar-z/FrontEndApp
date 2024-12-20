@@ -7,6 +7,7 @@ import EditItemForm from './components/EditItemForm'; // Form component for edit
 import NavBar from './components/NavBar';
 import './styles.css'
 
+
 function App() {
   // State to store items fetched from the backend
   const [items, setItems] = useState([]);
@@ -42,8 +43,8 @@ function App() {
         <Routes>
           {/* Route to display the list of items */}
           <Route path="/" element={<ItemList items={items} onDelete={deleteItem} />} />
-
-          {/* Route to add new item */}
+       
+                 {/* Route to add new item */}
           <Route path="/add" element={<ItemForm setItems={setItems} />} />
 
           {/* Route to edit an existing item */}

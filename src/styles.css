@@ -55,12 +55,11 @@
 }
   
    .card {
-    /* background-color: #fff;  */
     border: 2px solid black;
     box-shadow: 0 4px 8px rgba(8, 7, 7, 0.1);
     padding: 20px;
-    border-radius: 8px;
-    /* display: flex; */
+    border-radius: 15px;
+    display: flex;
     /* flex-direction: column; */
     gap: 10px;
   }
@@ -76,7 +75,7 @@
     color: #fff;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-left: 20px;
@@ -93,6 +92,7 @@
     flex-direction: column;
     gap: 15px;
   }
+
   
   input[type="text"],
   textarea {
@@ -102,10 +102,15 @@
     font-size: 1rem;
     width: 40%;
   }
-  
-  textarea {
+
+  form label {
+    text-align: right;
+    padding-top: 1rem;
+  }
+     textarea {
     resize: vertical;
     min-height: 100px;
+    max-width: 50%;
   }
   
   button[type="submit"] {
