@@ -31,7 +31,7 @@ const ItemList = () => {
           {items.map((item) => (
               <li key={item.postId} className='card'>
               {item.postId}. {item.name} - {item.description}
-              <Link to={`/edit/${item.postId}`}>Edit</Link>
+              {/* <Link to={`/edit/${item.postId}`}>Edit</Link> */}
               <DeleteButton id={item._id} setItems={setItems} />
             </li>
           ))}

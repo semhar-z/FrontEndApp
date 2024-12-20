@@ -44,11 +44,9 @@ function App() {
           <Route path="/" element={<ItemList items={items} onDelete={deleteItem} />} />
 
           {/* Route to add new item */}
-          {/* <Route path="/add" element={<ItemForm onAdd={addItem} />} /> */}
           <Route path="/add" element={<ItemForm setItems={setItems} />} />
 
           {/* Route to edit an existing item */}
-          {/* <Route path="/edit/:postId" element={<EditItemForm items={items} onEdit={editItem} />} /> */}
           <Route path="/edit/:postId" element={<EditItemForm setItems={setItems}/>} />
         </Routes>
       </div>
